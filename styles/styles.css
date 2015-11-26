@@ -1,0 +1,61 @@
+.menu-list {
+  display: flex;
+  list-style: none;
+}
+.menu-list .menu-list_item {
+  padding-right: 20px;
+}
+.menu-list .menu-list_item a {
+  color: #fff;
+  text-decoration: none;
+  cursor: pointer;
+}
+nav {
+  height: 50px;
+  background-color: #2e2e2e;
+  font-size: 1.5em;
+  color: #fff;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  padding: 10px;
+}
+nav .nav__menu-left {
+  display: flex;
+}
+nav .nav__menu-left .nav__menu-left_amex-logo {
+  padding-right: 20px;
+}
+nav .nav__menu-left .nav__menu-left_eze-click-logo {
+  padding-right: 20px;
+}
+.slider {
+  background-color: red;
+  width: 100%;
+  height: 400px;
+}
+.slider .slider__slides {
+  height: 350px;
+  background-color: blue;
+}
+.slider .slider__slides_paginate {
+  height: 50px;
+  background-color: green;
+}
+.content {
+  display: flex;
+  flex-flow: row;
+}
+.content .content__content-left {
+  display: flex;
+  flex: 1 1 auto;
+  background-color: #8a2828;
+}
+.content .content__content-right {
+  display: flex;
+  flex: 1 1 auto;
+  background-color: #858f1e;
+}
+html body #wrapper {
+  height: 100%;
+}
